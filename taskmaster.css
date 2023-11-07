@@ -15,8 +15,6 @@
 
 
 
-
-
 body {
 background-color: #C9BDBD;
 padding:0;
@@ -24,11 +22,12 @@ margin:0;
 
 }
 .banner {
-    background-image: url('productivity.jpg') ;
-    height: 300px;
+    background-image: url("neutral.jpg") ;
+    height: 298px;
+
     
 }
-#banniere {
+ #banniere {
     position:absolute;
     top: 50px; 
     left:50px;
@@ -37,15 +36,15 @@ margin:0;
 
 .apropos {
   align-items: center;
-  background-color: #FFE7E7;
+  background-color: rgb(201, 209, 192);
   background-position: 0 0;
-  border: 1px solid #FEE0E0;
+  border: 1px solid rgb(98, 50, 50);
   border-radius: 11px;
   position : absolute;
   top:60px;
   left:700px ;
   box-sizing: border-box;
-  color: #D33A2C;
+  color: #4a1b17;
   cursor: pointer;
   display: flex;
   font-size: 1rem;
@@ -72,15 +71,15 @@ margin:0;
 }
 .contact { 
     align-items: center;
-    background-color: #FFE7E7;
+    background-color: rgb(201, 209, 192);
     background-position: 0 0;
-    border: 1px solid #FEE0E0;
+    border: 1px solid rgb(98, 50, 50);
     border-radius: 11px;
     position : absolute;
     top:100px;
     left:980px ;
     box-sizing: border-box;
-    color: #D33A2C;
+    color: #4a1b17;
     cursor: pointer;
     display: flex;
     font-size: 1rem;
@@ -126,4 +125,21 @@ margin:0;
     position:absolute;
     top:470px;
     right:400px;
+  }
+  h3{
+    
+      background-image: url("backk.jpg");
+      background-size: cover; /* Ajuste la taille de l'image pour remplir l'élément h3 */
+      background-position: center; /* Centre l'image horizontalement et verticalement */
+      padding: 50px 0; /* Ajoute un espacement intérieur pour le texte */
+      text-align: center; /* Centre le texte horizontalement */
+      height: 300px; 
+      width:670px;
+      margin:0;
+    
+    position:absolute;
+    top:670px;
+    right:290px;
+    color:rgb(4, 19, 43);
+
   }
